@@ -1,0 +1,17 @@
+Use Emoji to Clarify Sheet Actions
+Not my original idea (thanks reddit user Emmia for this one!). Didn't see it in the thread anywhere else, so hopefully I'm not duplicating.
+
+Using emoji, you can make features and actions (or really anything!) on your sheet more easy to parse at a glance. Requires a bit of manual work - just copy and paste them into the name of the item. This work goes pretty fast for an established sheet, I suggest trying to do all similar items in one pass so you don't have to switch what is in your copied clipboard.
+
+While I think this is helpful to players, this is super helpful as the DM, as I'm less familiar with character options than most other functions in the game. So if I need to hop into a sheet to run for someone who is missing a session, or help troubleshoot, I can quickly see what options are available to me in my current game situation without toggling everything open.
+
+This is the template I have started with (easily expand with whatever emoji you want, add multiple emoji for complex actions, whatever!), which I add at the top of the Features & Traits section as a cheat sheet:
+
+❔ Action Colors
+⚪ - Passive
+🔵 - Action
+🟡 - Bonus Action
+🟢 - Movement
+🔴 - Reaction
+⚫ - Free Action
+⏲️ - Spell with long cast time
