@@ -142,7 +142,7 @@ p.blockquote {
 
 a {
     text-decoration: underline;
-    color: #58170D !important;
+    color: #9AC4BE !important;
 }
 
 .note-editor a[href^='http://journal.roll20.net'] {
@@ -150,7 +150,27 @@ a {
     text-decoration: underline;
 }
 
+.note-editor a[href^='http://journal.roll20.net']:link {
+    color: #9AC4BE!important;
+    text-decoration: underline;
+}
+
 a:link {
+    text-decoration: underline;
+    color: #9AC4BE;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #9AC4BE;
+    }
+    
+a:hover {
+    text-decoration: underline;
+    color: #9AC4BE;
+    }
+    
+a:active {
     text-decoration: underline;
     color: #9AC4BE;
 }
@@ -372,3 +392,18 @@ hr.style3 {
     display: block;
     border: 0;
 }
+
+// Display Graphics
+//
+// display with:
+// ![cinematic_mode Cinematic Mode](https://i.imgur.com/6ROPYDe.png)
+// ![campaign_mode Campaign Mode](https://i.imgur.com/KNf8tY6.png)
+// ![failure_dice Failure Die](https://i.imgur.com/mqMd034.png)
+// ![success_dice Success Die](https://i.imgur.com/M3TVReh.png)
+// Another example:
+// **Activate** ![single_action Single Action](http://2e.aonprd.com/Images/Actions/OneAction.png) **Interact**
+
+cinematic_mode {width: 30px; height: 30px;}  
+campaign_mode {width: 30px; height: 30px;}  
+failure_dice {width: 30px; height: 30px;}  
+success_dice {width: 30px; height: 30px;}  
