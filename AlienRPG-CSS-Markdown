@@ -8,7 +8,7 @@ bg {
 }
 
 p {
-    font-family: Gotham;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
     font-size: 13px;
     margin-bottom: 8px;
     text-indent: 10px;
@@ -16,7 +16,7 @@ p {
 }
 
 p.first-of-type {
-    font-family: Gotham;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
     font-size: 13px !important;
     margin-bottom: 0px;
     text-indent: 0px!important;
@@ -24,7 +24,7 @@ p.first-of-type {
 }
 
 ul {
-    font-family: Gotham;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
     font-size: 15px;
     list-style-position: inside;
     padding-left: 5px;
@@ -34,7 +34,7 @@ ul {
 }
 
 li {
-    font-family: Gotham;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
     font-size: 15px;
     list-style-position: inside;
     margin-bottom: 0px;
@@ -42,7 +42,7 @@ li {
     color: #ffffff;
 }
 h1 {
-    font-family: 'idlewild', 'times new roman', times, baskerville, garamond;
+    font-family: 'idlewild';
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'gotham', 'times new roman', times, baskerville, garamond;
+    font-family: 'Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito;
     color: #ffffff;
     font-weight: bolder;
     font-style: italic;
@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'gotham', 'times new roman', times, baskerville, garamond;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'idlewild', 'times new roman', times, baskerville, garamond;
+    font-family: 'idlewild';
     color: #ffffff;
     text-transform: uppercase;
     font-size: 16px;
@@ -96,7 +96,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'gotham';
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ h6 {
 }
 
 h7 {
-    font-family: 'gotham';
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
