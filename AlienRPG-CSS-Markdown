@@ -42,7 +42,7 @@ li {
     color: #ffffff;
 }
 h1 {
-    font-family: 'idlewild';
+    font-family: Open Sans, Museo Sans, Raleway, Tahoma, Nunito;
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
