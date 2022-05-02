@@ -2,9 +2,9 @@
 
 ## Part 1 - Install the API Scripts on Roll20
 Visit this link https://app.roll20.net/forum/post/8028597/script-markdown-handouts-and-bios/?pagenum=1 and install the three API scripts:
-markdown.js https://gist.github.com/BaldarSilveraxe/0eaaf6fafe8cef89c73fb89c6f37d563
-markdownNotesBio.js https://gist.github.com/BaldarSilveraxe/1002a65dd6e2613c8d38edc1f6005990
-markdownDocumentation.js https://gist.github.com/BaldarSilveraxe/5a1db1db88890ff2de0b94b57557f8c3
+- markdown.js https://gist.github.com/BaldarSilveraxe/0eaaf6fafe8cef89c73fb89c6f37d563
+- markdownNotesBio.js https://gist.github.com/BaldarSilveraxe/1002a65dd6e2613c8d38edc1f6005990
+- markdownDocumentation.js https://gist.github.com/BaldarSilveraxe/5a1db1db88890ff2de0b94b57557f8c3
 
 Installing API scripts on Roll20 is beyond the scope of this documentation, please visit https://help.roll20.net/hc/en-us/articles/360037772753
 
