@@ -41,8 +41,9 @@ Create a new **"Handout"** named **"Markdown Handout"** and in the **"GM Notes"*
 
 In the **"Description & Notes"** section you should see the processed **Markdown.**
 It should be large red text reading:
+
 <span style="font-size: 2em; font-weight: bolder; color: red;">This Heading should be red.</span>
-(if you tire of the "Getting Started" or "Example" handouts, delete this script or archive the handouts.)
+
 
 ### B. Switching to Alien RPG Styling
 If all has worked correctly in the previous steps, do the following.
