@@ -144,34 +144,15 @@ a {
 }
 
 .note-editor a[href^='http://journal.roll20.net'] {
-    color: #9AC4BE!important;
+    color: #9AC4BE !important;
     text-decoration: underline;
 }
 
 .note-editor a[href^='http://journal.roll20.net']:link {
-    color: #9AC4BE!important;
+    color: #9AC4BE !important;
     text-decoration: underline;
 }
 
-a:link {
-    text-decoration: underline;
-    color: #9AC4BE;
-}
-
-a:visited {
-    text-decoration: underline;
-    color: #9AC4BE;
-    }
-
-a:hover {
-    text-decoration: underline;
-    color: #9AC4BE;
-    }
-
-a:active {
-    text-decoration: underline;
-    color: #9AC4BE;
-}
 
 /// Image Floats
 left {
