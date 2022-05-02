@@ -13,7 +13,7 @@ Installing API scripts on Roll20 is beyond the scope of this documentation, plea
 ## Part 2 - Using the Markdown in a Roll20 Game
 Once you have installed the API scripts, launch the game on Roll20. Follow the steps below to start using the markdown styling in-game.
 
-### Getting Started
+### A. Getting Started
 Create a new **"Handout"** named **"Style Sheet"** and in the **"GM Notes"** place:
 ```
 [css]
@@ -41,7 +41,40 @@ It should be large red text reading:
 <span style="font-size: 2em; font-weight: bolder; color: red;">This Heading should be red.</span>
 (if you tire of the "Getting Started" or "Example" handouts, delete this script or archive the handouts.)
 
-### Switching to Alien RPG Styling
+### B. Switching to Alien RPG Styling
 If all has worked correctly in the previous steps, do the following.
 
+Open the AlienRPG-CSS-Markdown file (https://github.com/slugnet/roll20/blob/main/AlienRPG-CSS-Markdown) and copy/paste everything to the **"GM Notes"** section of the  **"Style Sheet"** **"Handout"**. This will overwrite the text that reads:
+```
+[css]
+h1 {color: red;}
+```
+**Save changes.**
+In the **"Description & Notes"** section you should see the processed **CSS**
+```
+[css](-LxpMeYSNUYwZIVXxguT) <-- will not be this code, was replaced earlier
+
+bg {
+    background-image: url('https://i.imgur.com/VvrAS6F.png');
+    padding: 30px;
+    padding-top: 1px;
+    margin: -30px;
+}
+
+etc.
+```
+
+Now, open the Alien RPG Example Markdown file (https://github.com/slugnet/roll20/blob/main/Alien%20RPG%20Example%20Markdown) and copy/paste everything to the **"GM Notes"** section of the **"Markdown Handout"** **"Handout"** below the two lines that read:
+```
+[md]
+[css](-LxpMeYSNUYwZIVXxguT) <-- will not be this code, was replaced earlier
+```
+You may erase or copy over the line that reads:
+```
+# This Heading should be red.
+```
+
+**Save changes.**
+
+In the **"Description & Notes"** section you should see the processed **Markdown** with a starry background, white text, and and Alien image.
 
