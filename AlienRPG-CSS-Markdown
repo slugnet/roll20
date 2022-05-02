@@ -133,6 +133,12 @@ p.blockquote {
     text-indent: 10px;
 }
 
+code {
+    font-family: OCR A Std, Lucida Console, Monaco, Courier New;
+    color: black;
+    background: yellow;
+}
+
 a {
     text-decoration: underline;
     color: #9AC4BE !important;
@@ -206,6 +212,14 @@ left-thumb {
 
 left-icon {
     float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 50px;
+}
+
+right-icon {
+    float: right;
     margin-right: 6px;
     margin-top: 2px;
     margin-bottom: 2px;
