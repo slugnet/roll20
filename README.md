@@ -50,7 +50,7 @@ This Heading should be red.
 ### B. Switching to Alien RPG Styling
 If all has worked correctly in the previous steps, do the following.
 
-Open the AlienRPG-CSS-Markdown file (https://github.com/slugnet/roll20/blob/main/AlienRPG-CSS-Markdown) and copy/paste everything to the **"GM Notes"** section of the  **"Style Sheet"** **"Handout"**. This will overwrite the text that reads:
+Open the AlienRPG-CSS-Markdown file (https://github.com/slugnet/roll20/blob/main/AlienRPG-CSS-Markdown) and copy/paste everything to the **"GM Notes"** section of the  **"Style Sheet"** **"Handout"**. **Delete** or overwrite the text that reads:
 ```
 [css]
 h1 {color: red;}
@@ -75,7 +75,7 @@ Now, open the Alien RPG Example Markdown file (https://github.com/slugnet/roll20
 [md]
 [css](-LxpMeYSNUYwZIVXxguT) <-- will not be this code, was replaced earlier
 ```
-You may erase or copy over the line that reads:
+**Delete** or overwrite the line that reads:
 ```
 # This Heading should be red.
 ```
