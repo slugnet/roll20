@@ -8,7 +8,7 @@ bg {
 }
 
 p {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     font-size: 13px;
     margin-bottom: 8px;
     text-indent: 10px;
@@ -16,7 +16,7 @@ p {
 }
 
 p.first-of-type {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
     font-size: 13px !important;
     margin-bottom: 0px;
     text-indent: 0px!important;
@@ -24,7 +24,7 @@ p.first-of-type {
 }
 
 ul {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
     font-size: 15px;
     list-style-position: inside;
     padding-left: 5px;
@@ -34,17 +34,18 @@ ul {
 }
 
 li {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; ;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     font-size: 15px;
     list-style-position: inside;
     margin-bottom: 0px;
     text-indent: -5px;
     color: #ffffff;
 }
+
 h1 {
-    font-family: Open Sans, Museo Sans, Raleway, Tahoma, Nunito;
+    font-family: Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
     color: #ffffff;
-    font-weight: bolder;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: .6em;
     font-size: 32px;
@@ -55,7 +56,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito;
+    font-family: 'Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
     color: #ffffff;
     font-weight: bolder;
     font-style: italic;
@@ -64,7 +65,7 @@ h2 {
 }
 
 h3 {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
@@ -76,7 +77,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'idlewild';
+    font-family: idlewild, Michroma, magistral, kallisto, orbitron, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial black;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 16px;
@@ -86,7 +87,7 @@ h4 {
 }
 
 h5 {
-    font-family: OCR A Standard, sans-serif !important;
+    font-family: OCR A Standard, OCR A Std, Lucida Console, Monaco, Courier New, sans-serif !important;
     color: black;
     text-transform: uppercase;
     font-size: 16px;
@@ -96,7 +97,7 @@ h5 {
 }
 
 h6 {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     color: #ffffff;
     font-weight: bolder;
     text-transform: uppercase;
@@ -105,18 +106,8 @@ h6 {
     text-indent: 10px;
 }
 
-h7 {
-    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito; 
-    color: #ffffff;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin-top: 10px;
-    font-size: 12px;
-    text-indent: 20px;
-}
-
 blockquote {
-    font-family: OCR A Std;
+    font-family: OCR A Std, Lucida Console, Monaco, Courier New;
     color: black;
     display: block;
     margin-left: auto;
@@ -134,7 +125,7 @@ blockquote {
 }
 
 p.blockquote {
-    font-family: OCR A Std;
+    font-family: OCR A Std, Lucida Console, Monaco, Courier New;
     font-size: 13px;
     margin-bottom: 0px;
     text-indent: 10px;
@@ -164,12 +155,12 @@ a:visited {
     text-decoration: underline;
     color: #9AC4BE;
     }
-    
+
 a:hover {
     text-decoration: underline;
     color: #9AC4BE;
     }
-    
+
 a:active {
     text-decoration: underline;
     color: #9AC4BE;
@@ -215,7 +206,6 @@ right20 {
     max-width: 20%;
 }
 
-
 left20 {
     float: left;
     margin-left: 6px;
@@ -223,7 +213,6 @@ left20 {
     margin-bottom: 2px;
     max-width: 20%;
 }
-
 
 left-thumb {
     float: left;
@@ -276,7 +265,7 @@ sidebar {
 }
 
 statblock {
-    font-family: sans-serif !important;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial, sans-serif !important;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 5px 10px;
@@ -288,7 +277,6 @@ statblock {
     box-shadow: 1px 4px 14px #888;
 }
 
-
 statblockcap {
     display: block;
     background: #E69A28;
@@ -299,49 +287,61 @@ statblockcap {
     box-sizing: initial;
 }
 
-
 tr:first-child {
     width: 100%;
     text-align: left;
-    background: transparent;
-    font-family: Verdana, sans-serif !important;
+    background: #3f3f3f;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial, sans-serif !important;
     font-weight: bold;
     font-size: 13px;
-    border: 0px solid #ffffff !important;
+    color: #ffffff;
+    border: 1px solid #3f3f3f !important;
+    vertical-align: middle;
 }
 
 tr:nth-child(even) {
     width: 100%;
     text-align: left;
-    background: #E0E5C1;
-    font-family: Verdana, sans-serif !important;
+    background: transparent;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial, sans-serif !important;
     font-size: 13px;
-    border: 0px solid #ffffff !important;
+    border: 1px solid #3f3f3f !important;
 }
 
 tr:nth-child(odd) {
     width: 100%;
     text-align: left;
     background: transparent;
-    font-family: Verdana, sans-serif !important;
+    font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial, sans-serif !important;
     font-size: 13px;
-    border: 0px solid #ffffff !important;
+    border: 1px solid #3f3f3f !important;
+    border-bottom: 1px solid #3f3f3f !important;
 }
 
 table {
-    width: 100%;
-    border: none !important;
-    border-spacing: 0;
-    border: 0px solid #ffffff !important;
-    outline: none;
+    font-family: OCR A Std, Lucida Console, Monaco, Courier New;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 5px 10px;
+    background-color: #9AC4BE;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    box-shadow: 1px 4px 14px #9AC4BE;
 }
 
 td.align-left {
     border-collapse:collapse;
-    border: none !important;
+    outline:none;
+    border: 0px !important;
     border-spacing: 0;
     border: 0px solid #ffffff !important;
-    outline:none;
     padding-top: 2px;
     padding-bottom: 2px;
     text-align: left;
@@ -368,9 +368,6 @@ td.align-right {
     padding-bottom: 2px;
     text-align: right;
 }
-
-
-
 hr {
     background: url('https://i.imgur.com/r3771zY.png') no-repeat top center;
     background-size: contain;
@@ -393,7 +390,6 @@ hr.style3 {
     border: 0;
 }
 
-
 // Display Graphics
 //
 // display with:
@@ -404,10 +400,8 @@ hr.style3 {
 // Another example:
 // **Activate** ![single_action Single Action](http://2e.aonprd.com/Images/Actions/OneAction.png) **Interact**
 
-cine_mode {width: 30px; height: 30px;}  
+cine_mode {width: 15px; height: 15px;}  
+campaign_mode {width: 15px; height: 15px;}  
+failure_dice {width: 15px; height: 15px;}  
+success_dice {width: 15px; height: 15px;}  
 
-campaign_mode {width: 30px; height: 30px;}  
-
-failure_dice {width: 30px; height: 30px;}  
-
-success_dice {width: 30px; height: 30px;}  
