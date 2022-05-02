@@ -1,5 +1,6 @@
 [css]
 
+/// Background Image
 bg {
     background-image: url('https://i.imgur.com/VvrAS6F.png');
     padding: 30px;
@@ -7,6 +8,7 @@ bg {
     margin: -30px;
 }
 
+/// General Print Font
 p {
     font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     font-size: 13px;
@@ -23,6 +25,7 @@ p.first-of-type {
     color: #ffffff;
 }
 
+/// Unordered List
 ul {
     font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
     font-size: 15px;
@@ -33,6 +36,7 @@ ul {
     color: #ffffff;
 }
 
+/// List Items
 li {
     font-family: Montserrat, Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial; 
     font-size: 15px;
@@ -41,6 +45,8 @@ li {
     text-indent: -5px;
     color: #ffffff;
 }
+
+/// Headings
 
 h1 {
     font-family: Open Sans, Museo Sans, Raleway, Tahoma, Nunito, arial;
@@ -131,6 +137,7 @@ p.blockquote {
     text-indent: 10px;
 }
 
+/// Links
 a {
     text-decoration: underline;
     color: #9AC4BE !important;
@@ -166,6 +173,7 @@ a:active {
     color: #9AC4BE;
 }
 
+/// Image Floats
 left {
     float: left;
     margin-right: 6px;
@@ -287,6 +295,9 @@ statblockcap {
     box-sizing: initial;
 }
 
+/// Table Definitions
+
+/// Table Header
 tr:first-child {
     width: 100%;
     text-align: left;
@@ -299,6 +310,7 @@ tr:first-child {
     vertical-align: middle;
 }
 
+/// Table Even Rows
 tr:nth-child(even) {
     width: 100%;
     text-align: left;
@@ -308,6 +320,7 @@ tr:nth-child(even) {
     border: 1px solid #3f3f3f !important;
 }
 
+/// Table Odd Rows
 tr:nth-child(odd) {
     width: 100%;
     text-align: left;
@@ -318,6 +331,7 @@ tr:nth-child(odd) {
     border-bottom: 1px solid #3f3f3f !important;
 }
 
+/// Table Box and Font Defined
 table {
     font-family: OCR A Std, Lucida Console, Monaco, Courier New;
     color: black;
@@ -336,6 +350,7 @@ table {
     box-shadow: 1px 4px 14px #9AC4BE;
 }
 
+/// Table Left Align
 td.align-left {
     border-collapse:collapse;
     outline:none;
@@ -347,6 +362,7 @@ td.align-left {
     text-align: left;
 }
 
+/// Table Center Align
 td.align-center {
     border-collapse:collapse;
     border: none !important;
@@ -358,6 +374,7 @@ td.align-center {
     text-align: center;
 }
 
+/// Table Right Align
 td.align-right {
     border-collapse:collapse;
     border: none !important;
@@ -368,6 +385,10 @@ td.align-right {
     padding-bottom: 2px;
     text-align: right;
 }
+
+/// Horizontal Rule/Line Breaks
+
+/// Image (D&D Style) ___
 hr {
     background: url('https://i.imgur.com/r3771zY.png') no-repeat top center;
     background-size: contain;
@@ -376,6 +397,7 @@ hr {
     border: 0;
 }
 
+/// Single Blank Line Break ---
 hr.style2 {
     display: block;
     width: 100%;
@@ -383,6 +405,7 @@ hr.style2 {
     border: none;
 }
 
+/// White Horizontal Rule ***
 hr.style3 {
     height: 2px;
     background-color: #ffffff;
