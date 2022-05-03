@@ -88,7 +88,8 @@ In the **"Description & Notes"** section you should see the processed **Markdown
 ---
 <br>
 <br>
-### Example Handout in Roll20
+
+# Example Handout in Roll20
 
 ![Overview of the Markdown Available in Roll20](https://github.com/slugnet/roll20/blob/main/AlienRPGMarkdown/example-markdown-image.png)
 
