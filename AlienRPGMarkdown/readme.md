@@ -84,3 +84,5 @@ Now, open the Alien RPG Example Markdown file (https://github.com/slugnet/roll20
 
 In the **"Description & Notes"** section you should see the processed **Markdown** with a starry background, white text, and and Alien image.
 
+![Overview of the Markdown Available](https://github.com/slugnet/roll20/blob/main/AlienRPGMarkdown/example-markdown-image.png)
+
